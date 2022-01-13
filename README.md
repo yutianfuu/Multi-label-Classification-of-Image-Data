@@ -1,5 +1,5 @@
 # Multi-label Classification of Image Data
 ### COMP551 Project 
-#### In this project, we developed and trained convolutional neural network-based models to classify the MNIST dataset with handwritten digits and letters. Finally, we reached 95.233 percentage of testing accuracy with a VGG16 model predicting digits and a self-developed model predicting letters. We also attempted semi-supervised learning, noise robustness, and bagging average to obtain more powerful and low-variance models.
+In this project, we developed and trained convolutional neural network-based models to classify the MNIST dataset with handwritten digits and letters. 
+Finally, we reached 95.233 percentage of testing accuracy with a VGG16 model predicting digits and a self-developed model predicting letters. We also attempted semi-supervised learning, noise robustness, and bagging average to obtain more powerful and low-variance models.
 
-#### We started with the idea that building two models to separately classify 10 digits and 26 letters and concatenating results to gain the final prediction. By using Keras, a CNN model based on VGG16 was developed for the digit prediction and a self-developed CNN model with 21 layers was built for letter prediction. During the experiment, it was observed that our models were frequently overfitted. Therefore, data argumentation, noise robustness, increasing model depth, and increasing the dropout ratio were attempted to reduce the variance.
